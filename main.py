@@ -88,16 +88,3 @@ if __name__ == "__main__":
     app = QApplication([])
     chat_bot = ChatBotApp()
     app.exec()
-
-
-"""
-        self.request = QLineEdit()
-        self.request.hide()
-        self.info = QTextEdit()
-        self.info.setReadOnly(True)
-        self.info.hide()
-        self.main_layout.addWidget(self.request, alignment=Qt.AlignmentFlag.AlignCenter)
-        self.main_layout.addWidget(self.info, alignment=Qt.AlignmentFlag.AlignCenter)
-        self.request.setStyleSheet("background-color: #FFF; ")
-        self.info.setStyleSheet("background-color: #FFF; font-size: 12px; width: 150px; height: 100px;")
-"""
